@@ -1,0 +1,24 @@
+.nav{
+    margin-top: 5px;
+    width: 250px;
+}
+.navLink{
+    width: 100%;
+    margin : 0 auto;
+    text-align: center;
+    padding: 8px 0;
+    transition: .3s all linear;
+}
+.navLink a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    transition: .3s all linear;
+}
+.navLink:hover{
+    background: gold;
+}
+.navLink:hover a {
+    color: black;
+}
